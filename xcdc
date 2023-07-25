@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+      integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="text-center">
+    <div class="container my-5">
+      <h1 class="display-2 text-capitalize">
+        Lugares que você precisa conhecer
+      </h1>
+      <div class="border border-5 rounded-4 border-info">
+        <img
+          class="img-fluid rounded-top-3"
+          src="https://www.netvasco.com.br/news/noticias16/arquivos/20181125-165153-1-.jpg"
+          class="img-fluid rounded-top-3"
+          src="https://i.pinimg.com/originals/b4/e4/3d/b4e43df4d9c8e0094449bcd38eef92ca.jpg"
+        />
+        <h2 class="display-5"><strong> Nome do local: SÃO JANUÁRIO</strong></h2>
+        <h5 class="fs-4 text-info">Visitei em: dezembro de 2020</h5>
+        <p class="p-3 text-start text-muted">
+          O Estádio Vasco da Gama, mais conhecido como São Januário, devido à parte de sua localização estar no bairro de mesmo nome, é o estádio de futebol pertencente ao Club de Regatas Vasco da Gama.<br />
+
+          Foi inaugurado em 21 de abril de 1927, sendo até hoje o maior estádio particular do estado do Rio de Janeiro.<br />
+
+          O estádio é reconhecido por lei como de interesse histórico, cultural, desportivo e social para o município.[8] Sua fachada, em estilo neocolonial, é tombada pelo Instituto do Patrimônio Histórico e Artístico Nacional.<br />
+        </p>
+      </div>
+    </div>
+    <div id="filmes" class="container my-5">
+      <h1 class="display-2 text-capitalize">Filmes Para assistir🎦</h1>
+      <div>
+        <h3
+          class="bg-info p-2 rounded-2"
+          data-bs-toggle="collapse"
+          data-bs-target="#filme1"
+        >
+          <div class="row">
+            <div class="col">
+              <i class="fa-solid fa-face-laugh-beam fa-beat"></i>
+              A procura da felicidade
+              <i class="fa-solid fa-clapperboard fa-beat"></i>
+            </div>
+            <div class="col-auto"></div>
+          </div>
+        </h3>
+        <div class="collapse" id="filme1">
+
+          <h5 class="text-warning">
+            <i class="fa-solid fa-star fa-beat-fade"></i><i class="fa-solid fa-star fa-beat-fade"></i><i class="fa-solid fa-star fa-beat-fade"></i><i class="fa-solid fa-star fa-beat-fade"></i><i class="fa-solid fa-star fa-beat-fade"></i>
+          </h5>
+          <p class="text-muted"> Chris Gardner (Will Smith) é um pai de família que enfrenta sérios problemas financeiros. Apesar de todas as tentativas em manter a família unida, Linda (Thandie Newton), sua esposa, decide partir. Chris agora é pai solteiro e precisa cuidar de Christopher (Jaden Smith), seu filho de apenas 5 anos. Ele tenta usar sua habilidade como vendedor para conseguir um emprego melhor, que lhe dê um salário mais digno. Chris consegue uma vaga de estagiário numa importante corretora de ações, mas não recebe salário pelos serviços prestados. Sua esperança é que, ao fim do programa de estágio, ele seja contratado e assim tenha um futuro promissor na empresa. Porém seus problemas financeiros não podem esperar que isto aconteça, o que faz com que sejam despejados. Chris e Christopher passam a dormir em abrigos, estações de trem, banheiros e onde quer que consigam um refúgio à noite, mantendo a esperança de que dias melhores virão.</p>
+        </div>
+        </div>
+      </div>
+    </body>
+    </html>
